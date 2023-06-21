@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (lowercaseMessage.includes('hii') || lowercaseMessage.includes('hello')) {
         botResponse = 'Hello, Ashish! How are you doing today?';
       }else if (lowercaseMessage.includes('how are you doing')) {
-        botResponse = 'I am doing well, thank you! How can I assist you?';
+        botResponse = 'I am doing well, thank you! How can I assist  you?';
       }
 
       if(lowercaseMessage.includes("good")){
