@@ -1,4 +1,3 @@
-document.addEventListener('DOMContentLoaded', function() {
     // Get necessary elements
     var messageInput = document.getElementById('message-input');
     var sendButton = document.getElementById('send-button');
@@ -62,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
 
       if(lowercaseMessage.includes("good")){
-        botResponse="nice";
+        botResponse="nice, How can I assist you?";
       }
       if(lowercaseMessage.includes("how are you")){
         botResponse="I am doing well, thank you! How can I assist you?";
@@ -80,4 +79,3 @@ document.addEventListener('DOMContentLoaded', function() {
 
       return botResponse;
     }
-  });
